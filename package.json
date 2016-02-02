@@ -19,7 +19,7 @@
     "name": "Chad Wagner",
     "url" : "http://developer.activevideo.com/"
   },
-  "homepage": "active-video/transcoder-analyzer#readme",
+  "homepage": "https://github.com/active-video/transcoder-analyzer/#readme",
   "license": "MIT",
   "dependencies": {
     "command-line-args": "^2.1.4",
