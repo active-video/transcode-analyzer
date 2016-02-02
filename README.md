@@ -52,7 +52,11 @@ results = {
 ### From CLI
 ```bash
 git clone 'https://github.com/active-video/transcoder-analyzer.git';
-cd transcoder analyzer
+cd transcoder-analyzer
+
+# to get more info, try
+# node index.js --help
+
 node index -d /var/opt/transcoder/vodcache/
 ```
 
