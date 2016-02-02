@@ -1,4 +1,4 @@
-# transcoder-analyzer (CloudTV)
+# transcode-analyzer (CloudTV)
 
 ## Purpose
 
@@ -11,12 +11,12 @@ If no output file name is passed, the default files generated will be:
 
 ## Approach
 
-The `transcoder-analyzer` is available as a module for use in other NodeJS applications, or via CLI using index.js.
+The `transcode-analyzer` is available as a module for use in other NodeJS applications, or via CLI using index.js.
 
 ## Installation
 
 ``` bash
-npm install --save transcoder-analyzer
+npm install --save transcode-analyzer
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ analyzer('/var/opt/transcoder/vodcache/').promise.then(function(results){
 });
 ```
 
-Notice the `promise`. Because `transcoder-analyzer` uses promises to chain the completion, attach a callback to the promise using `analyzer(srcDirectory).promise.then(function(results){/*do something with the results*/});`
+Notice the `promise`. Because `transcode-analyzer` uses promises to chain the completion, attach a callback to the promise using `analyzer(srcDirectory).promise.then(function(results){/*do something with the results*/});`
 
 The results are of the format:
 
@@ -61,8 +61,8 @@ results = {
 ### From CLI
 
 ``` bash
-git clone 'https://github.com/active-video/transcoder-analyzer.git';
-cd transcoder-analyzer
+git clone 'https://github.com/active-video/transcode-analyzer.git';
+cd transcode-analyzer
 npm install
 
 # to get more info, try
@@ -84,7 +84,7 @@ Once the directories have been indexed, the subsequent processing will display i
 **Screenshot in action**
 
 #### Mid-run
-![Progress Screenshot](https://github.com/active-video/transcoder-analyzer/raw/master/assets/progress-screenshot.png)
+![Progress Screenshot](https://github.com/active-video/transcode-analyzer/raw/master/assets/progress-screenshot.png)
 
 #### Excel results, when opening `results.video.csv`:
-![Progress Screenshot](https://github.com/active-video/transcoder-analyzer/raw/master/assets/excel-output-audio.png)
+![Progress Screenshot](https://github.com/active-video/transcode-analyzer/raw/master/assets/excel-output-audio.png)

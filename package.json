@@ -4,7 +4,7 @@
   "description": "A library that will scan a transcoder (or output from multiple transcoders) vodcache folder and build a CSV file for audio/video transcodes, to analyze historical performance.",
   "repository": {
     "type": "git",
-    "url": "git+ttps://github.com/active-video/transcoder-analyzer.git"
+    "url": "git+ttps://github.com/active-video/transcode-analyzer.git"
   },
   "main": "transcode-analyzer",
   "keywords": [
@@ -19,7 +19,7 @@
     "name": "Chad Wagner",
     "url" : "http://developer.activevideo.com/"
   },
-  "homepage": "https://github.com/active-video/transcoder-analyzer/#readme",
+  "homepage": "https://github.com/active-video/transcode-analyzer/#readme",
   "license": "MIT",
   "dependencies": {
     "command-line-args": "^2.1.4",
