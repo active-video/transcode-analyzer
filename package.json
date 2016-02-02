@@ -1,6 +1,26 @@
 {
   "name": "transcode-analyzer",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "description": "A library that will scan a transcoder (or output from multiple transcoders) vodcache folder and build a CSV file for audio/video transcodes, to analyze historical performance.",
+  "repository": {
+    "type": "git",
+    "url": "git+ttps://github.com/active-video/transcoder-analyzer.git"
+  },
+  "main": "transcode-analyzer",
+  "keywords": [
+    "transcoder",
+    "cloudtv",
+    "analyzer",
+    "realtime",
+    "metrics",
+    "performance"
+  ],
+  "author": {
+    "name": "Chad Wagner",
+    "url" : "http://developer.activevideo.com/"
+  },
+  "homepage": "active-video/transcoder-analyzer#readme",
+  "license": "MIT",
   "dependencies": {
     "command-line-args": "^2.1.4",
     "dateformat": "^1.0.12",
