@@ -66,4 +66,9 @@ Note that the initial directory listing can take up to 30 seconds before we begi
 Once the directories have been indexed, the subsequent processing will display in the console as a status:
 
 ```bash
- Status @ 2.350m |   Complete: [▒▒▒▒▒▒▒▒▒▒]  99.95 %   ┊   Transcodes Found: 117070   ┊   Transcodes Processed: 117009   ┊    ```
+ Status @ 2.350m |   Complete: [▒▒▒▒▒▒▒▒▒▒]  99.95 %   ┊   Transcodes Found: 117070   ┊   Transcodes Processed: 117009   ┊
+ ```
+ 
+**Screenshot in action**
+
+![Progress Screenshot](assets/progress-screenshot.png)
