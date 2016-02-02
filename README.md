@@ -1,20 +1,24 @@
 # transcoder-analyzer (CloudTV)
 
 ## Purpose
+
 The purpose of this analyzer is to recursively scan a directory for transcoded video logs. We are interested only in the ```vodcache``` folder and the respective ```transcoder_core.txt``` files which contain information about the transcode process (timestamps of events, total duration, source file URL, etc). 
 
 ## Approach
+
 The ```transcoder-analyzer``` is available as a module for use in other NodeJS applications, or via CLI using index.js.
 
 ## Installation
-```bash
+
+``` bash
 npm install --save transcoder-analyzer
 ```
 
 ## Useage
 
 ### From Script
-```javascript
+
+``` javascript
 analyzer('/var/opt/transcoder/vodcache/').promise.then(function(results){
     process.exit();
 });
@@ -24,7 +28,7 @@ Notice the ```promise```. Because ```transcoder-analyzer``` uses promises to cha
 
 The results are of the format:
 
-```javascript
+``` javascript
 results = {
   video: [
     {
@@ -40,7 +44,7 @@ results = {
     },
     ...
   ],
-  
+
   audio : {
     //same format as 'video' piece, but separated for analysis since 
     //audio is a much faster transcode than video and shouldn't be \
@@ -50,7 +54,8 @@ results = {
 ```
 
 ### From CLI
-```bash
+
+``` bash
 git clone 'https://github.com/active-video/transcoder-analyzer.git';
 cd transcoder-analyzer
 npm install
@@ -66,9 +71,11 @@ Note that the initial directory listing can take up to 30 seconds before we begi
 Once the directories have been indexed, the subsequent processing will display in the console as a status:
 
 ```bash
+
  Status @ 2.350m |   Complete: [▒▒▒▒▒▒▒▒▒▒]  99.95 %   ┊   Transcodes Found: 117070   ┊   Transcodes Processed: 117009   ┊
+
  ```
- 
+
 **Screenshot in action**
 
 ![Progress Screenshot](assets/progress-screenshot.png)
