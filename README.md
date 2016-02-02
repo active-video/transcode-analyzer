@@ -53,6 +53,7 @@ results = {
 ```bash
 git clone 'https://github.com/active-video/transcoder-analyzer.git';
 cd transcoder-analyzer
+npm install
 
 # to get more info, try
 # node index.js --help
