@@ -1,6 +1,6 @@
 {
   "name": "transcode-analyzer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A library that will scan a transcoder (or output from multiple transcoders) vodcache folder and build a CSV file for audio/video transcodes, to analyze historical performance.",
   "repository": {
     "type": "git",

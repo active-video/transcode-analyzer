@@ -78,4 +78,4 @@ Once the directories have been indexed, the subsequent processing will display i
 
 **Screenshot in action**
 
-![Progress Screenshot](assets/progress-screenshot.png)
+![Progress Screenshot](https://github.com/active-video/transcoder-analyzer/raw/master/assets/progress-screenshot.png)
