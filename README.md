@@ -24,6 +24,8 @@ npm install --save transcode-analyzer
 ### From Script
 
 ``` javascript
+var analyzer = require('./transcode-analyzer.js');
+
 analyzer('/var/opt/transcoder/vodcache/').promise.then(function(results){
     process.exit();
 });
