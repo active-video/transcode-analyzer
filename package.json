@@ -1,0 +1,13 @@
+{
+  "name": "transcode-analyzer",
+  "version": "0.0.1",
+  "dependencies": {
+    "command-line-args": "^2.1.4",
+    "dateformat": "^1.0.12",
+    "filequeue": "^0.5.0",
+    "json2csv": "^3.1.0",
+    "node-find-files": "0.0.4",
+    "node-status": "^0.1.6",
+    "promise": "^7.1.1"
+  }
+}
