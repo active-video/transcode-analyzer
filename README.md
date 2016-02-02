@@ -1,4 +1,4 @@
-# transcoder-analyzer
+# transcoder-analyzer (CloudTV)
 
 ## Purpose
 The purpose of this analyzer is to recursively scan a directory for transcoded video logs. We are interested only in the ```vodcache``` folder and the respective ```transcoder_core.txt``` files which contain information about the transcode process (timestamps of events, total duration, source file URL, etc). 
